@@ -12,6 +12,7 @@
 		842D33DD23826DD100CC8AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842D33DB23826DD100CC8AE9 /* Main.storyboard */; };
 		842D33DF23826DD200CC8AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842D33DE23826DD200CC8AE9 /* Assets.xcassets */; };
 		842D33E223826DD200CC8AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842D33E023826DD200CC8AE9 /* LaunchScreen.storyboard */; };
+		842D33ED2382740100CC8AE9 /* DeliveryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D33EC2382740100CC8AE9 /* DeliveryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		842D33DE23826DD200CC8AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		842D33E123826DD200CC8AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842D33E323826DD200CC8AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842D33EC2382740100CC8AE9 /* DeliveryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		842D33D623826DD100CC8AE9 /* Lalamove */ = {
 			isa = PBXGroup;
 			children = (
+				842D33E92382738E00CC8AE9 /* Cells */,
 				842D33D723826DD100CC8AE9 /* AppDelegate.swift */,
 				842D33D923826DD100CC8AE9 /* ViewController.swift */,
 				842D33DB23826DD100CC8AE9 /* Main.storyboard */,
@@ -76,6 +79,22 @@
 			path = Lalamove;
 			sourceTree = "<group>";
 		};
+		842D33E92382738E00CC8AE9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				842D33EC2382740100CC8AE9 /* DeliveryCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		86077EF1F6510797964FFA18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63339C6A6FA4C4B529A564EE /* Pods_Lalamove.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 842D33E623826DD200CC8AE9 /* Build configuration list for PBXNativeTarget "Lalamove" */;
 			buildPhases = (
+				0EEE4C8678C4ED0FD2018D17 /* [CP] Check Pods Manifest.lock */,
 				842D33D023826DD100CC8AE9 /* Sources */,
 				842D33D123826DD100CC8AE9 /* Frameworks */,
 				842D33D223826DD100CC8AE9 /* Resources */,
+				11F5CAC3E23ACDF1CDD96D07 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				842D33DA23826DD100CC8AE9 /* ViewController.swift in Sources */,
+				842D33ED2382740100CC8AE9 /* DeliveryCell.swift in Sources */,
 				842D33D823826DD100CC8AE9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
