@@ -29,17 +29,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				909842258D8660133532B208 /* Pods_Lalamove.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40EA1F58ED797BAA0A65EFD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89C335C4AFA861B4A04DF710 /* Pods-Lalamove.debug.xcconfig */,
+				F41BFFA893AC7BC713EB71D1 /* Pods-Lalamove.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		842D33CB23826DD100CC8AE9 = {
 			isa = PBXGroup;
 			children = (
 				842D33D623826DD100CC8AE9 /* Lalamove */,
 				842D33D523826DD100CC8AE9 /* Products */,
+				40EA1F58ED797BAA0A65EFD7 /* Pods */,
+				86077EF1F6510797964FFA18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -220,6 +232,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -274,12 +287,14 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		842D33E723826DD200CC8AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C335C4AFA861B4A04DF710 /* Pods-Lalamove.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +313,7 @@
 		};
 		842D33E823826DD200CC8AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F41BFFA893AC7BC713EB71D1 /* Pods-Lalamove.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
