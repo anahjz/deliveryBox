@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		842D33DF23826DD200CC8AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842D33DE23826DD200CC8AE9 /* Assets.xcassets */; };
 		842D33E223826DD200CC8AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842D33E023826DD200CC8AE9 /* LaunchScreen.storyboard */; };
 		842D33ED2382740100CC8AE9 /* DeliveryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D33EC2382740100CC8AE9 /* DeliveryCell.swift */; };
+		842D33F123827ED800CC8AE9 /* DeliveryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D33F023827ED800CC8AE9 /* DeliveryData.swift */; };
 		847C83882382AAC100236078 /* MyDeliveriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C83872382AAC100236078 /* MyDeliveriesViewModel.swift */; };
 		847C838E2382ACB000236078 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C838D2382ACB000236078 /* EndPoints.swift */; };
 		847C83902382ADC900236078 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C838F2382ADC900236078 /* NetworkManager.swift */; };
@@ -31,6 +32,7 @@
 		842D33E123826DD200CC8AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842D33E323826DD200CC8AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842D33EC2382740100CC8AE9 /* DeliveryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryCell.swift; sourceTree = "<group>"; };
+		842D33F023827ED800CC8AE9 /* DeliveryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryData.swift; sourceTree = "<group>"; };
 		847C83872382AAC100236078 /* MyDeliveriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDeliveriesViewModel.swift; sourceTree = "<group>"; };
 		847C838D2382ACB000236078 /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
 		847C838F2382ADC900236078 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -111,6 +113,14 @@
 				842D33EF23827EC900CC8AE9 /* Model */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		842D33EF23827EC900CC8AE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				842D33F023827ED800CC8AE9 /* DeliveryData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		847C83862382AA9C00236078 /* ViewModel */ = {
@@ -267,6 +277,7 @@
 				847C83882382AAC100236078 /* MyDeliveriesViewModel.swift in Sources */,
 				842D33ED2382740100CC8AE9 /* DeliveryCell.swift in Sources */,
 				847C838E2382ACB000236078 /* EndPoints.swift in Sources */,
+				842D33F123827ED800CC8AE9 /* DeliveryData.swift in Sources */,
 				849CC51D2383E3290027A09A /* Utilities.swift in Sources */,
 				842D33D823826DD100CC8AE9 /* AppDelegate.swift in Sources */,
 			);
