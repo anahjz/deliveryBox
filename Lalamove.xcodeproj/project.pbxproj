@@ -13,9 +13,11 @@
 		842D33DF23826DD200CC8AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842D33DE23826DD200CC8AE9 /* Assets.xcassets */; };
 		842D33E223826DD200CC8AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842D33E023826DD200CC8AE9 /* LaunchScreen.storyboard */; };
 		842D33ED2382740100CC8AE9 /* DeliveryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D33EC2382740100CC8AE9 /* DeliveryCell.swift */; };
+		847C83932382B2FD00236078 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C83922382B2FD00236078 /* AppConstant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63339C6A6FA4C4B529A564EE /* Pods_Lalamove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lalamove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		842D33D423826DD100CC8AE9 /* Lalamove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lalamove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842D33D723826DD100CC8AE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		842D33D923826DD100CC8AE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,9 @@
 		842D33E123826DD200CC8AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842D33E323826DD200CC8AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842D33EC2382740100CC8AE9 /* DeliveryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryCell.swift; sourceTree = "<group>"; };
+		847C83922382B2FD00236078 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		89C335C4AFA861B4A04DF710 /* Pods-Lalamove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lalamove.debug.xcconfig"; path = "Target Support Files/Pods-Lalamove/Pods-Lalamove.debug.xcconfig"; sourceTree = "<group>"; };
+		F41BFFA893AC7BC713EB71D1 /* Pods-Lalamove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lalamove.release.xcconfig"; path = "Target Support Files/Pods-Lalamove/Pods-Lalamove.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +73,7 @@
 		842D33D623826DD100CC8AE9 /* Lalamove */ = {
 			isa = PBXGroup;
 			children = (
+				847C83912382B2EB00236078 /* Common */,
 				842D33E92382738E00CC8AE9 /* Cells */,
 				842D33D723826DD100CC8AE9 /* AppDelegate.swift */,
 				842D33D923826DD100CC8AE9 /* ViewController.swift */,
@@ -85,6 +91,14 @@
 				842D33EC2382740100CC8AE9 /* DeliveryCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		847C83912382B2EB00236078 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				847C83922382B2FD00236078 /* AppConstant.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		86077EF1F6510797964FFA18 /* Frameworks */ = {
@@ -163,12 +177,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EEE4C8678C4ED0FD2018D17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lalamove-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11F5CAC3E23ACDF1CDD96D07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lalamove/Pods-Lalamove-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lalamove/Pods-Lalamove-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lalamove/Pods-Lalamove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 /* Begin PBXSourcesBuildPhase section */
 		842D33D023826DD100CC8AE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842D33DA23826DD100CC8AE9 /* ViewController.swift in Sources */,
+				847C83932382B2FD00236078 /* AppConstant.swift in Sources */,
 				842D33ED2382740100CC8AE9 /* DeliveryCell.swift in Sources */,
 				842D33D823826DD100CC8AE9 /* AppDelegate.swift in Sources */,
 			);
