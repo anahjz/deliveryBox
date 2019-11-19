@@ -15,6 +15,7 @@
 		842D33ED2382740100CC8AE9 /* DeliveryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D33EC2382740100CC8AE9 /* DeliveryCell.swift */; };
 		847C83882382AAC100236078 /* MyDeliveriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C83872382AAC100236078 /* MyDeliveriesViewModel.swift */; };
 		847C83932382B2FD00236078 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C83922382B2FD00236078 /* AppConstant.swift */; };
+		849CC51D2383E3290027A09A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CC51C2383E3290027A09A /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		842D33EC2382740100CC8AE9 /* DeliveryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryCell.swift; sourceTree = "<group>"; };
 		847C83872382AAC100236078 /* MyDeliveriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDeliveriesViewModel.swift; sourceTree = "<group>"; };
 		847C83922382B2FD00236078 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		849CC51C2383E3290027A09A /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		89C335C4AFA861B4A04DF710 /* Pods-Lalamove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lalamove.debug.xcconfig"; path = "Target Support Files/Pods-Lalamove/Pods-Lalamove.debug.xcconfig"; sourceTree = "<group>"; };
 		F41BFFA893AC7BC713EB71D1 /* Pods-Lalamove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lalamove.release.xcconfig"; path = "Target Support Files/Pods-Lalamove/Pods-Lalamove.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +96,14 @@
 				842D33EC2382740100CC8AE9 /* DeliveryCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		842D33EE23827E5C00CC8AE9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				842D33EF23827EC900CC8AE9 /* Model */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		847C83862382AA9C00236078 /* ViewModel */ = {
@@ -229,6 +239,7 @@
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		842D33D023826DD100CC8AE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -237,6 +248,7 @@
 				847C83932382B2FD00236078 /* AppConstant.swift in Sources */,
 				847C83882382AAC100236078 /* MyDeliveriesViewModel.swift in Sources */,
 				842D33ED2382740100CC8AE9 /* DeliveryCell.swift in Sources */,
+				849CC51D2383E3290027A09A /* Utilities.swift in Sources */,
 				842D33D823826DD100CC8AE9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
