@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		842D33D823826DD100CC8AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D33D723826DD100CC8AE9 /* AppDelegate.swift */; };
-		842D33DA23826DD100CC8AE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D33D923826DD100CC8AE9 /* ViewController.swift */; };
+		842D33DA23826DD100CC8AE9 /* MyDeliveriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D33D923826DD100CC8AE9 /* MyDeliveriesViewController.swift */; };
 		842D33DD23826DD100CC8AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842D33DB23826DD100CC8AE9 /* Main.storyboard */; };
 		842D33DF23826DD200CC8AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842D33DE23826DD200CC8AE9 /* Assets.xcassets */; };
 		842D33E223826DD200CC8AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842D33E023826DD200CC8AE9 /* LaunchScreen.storyboard */; };
@@ -26,7 +26,7 @@
 		63339C6A6FA4C4B529A564EE /* Pods_Lalamove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lalamove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		842D33D423826DD100CC8AE9 /* Lalamove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lalamove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842D33D723826DD100CC8AE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		842D33D923826DD100CC8AE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		842D33D923826DD100CC8AE9 /* MyDeliveriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDeliveriesViewController.swift; sourceTree = "<group>"; };
 		842D33DC23826DD100CC8AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		842D33DE23826DD200CC8AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		842D33E123826DD200CC8AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -278,6 +278,7 @@
 				842D33ED2382740100CC8AE9 /* DeliveryCell.swift in Sources */,
 				847C838E2382ACB000236078 /* EndPoints.swift in Sources */,
 				842D33F123827ED800CC8AE9 /* DeliveryData.swift in Sources */,
+				842D33DA23826DD100CC8AE9 /* MyDeliveriesViewController.swift in Sources */,
 				849CC51D2383E3290027A09A /* Utilities.swift in Sources */,
 				842D33D823826DD100CC8AE9 /* AppDelegate.swift in Sources */,
 			);
