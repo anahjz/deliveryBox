@@ -19,6 +19,7 @@
 		847C83902382ADC900236078 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C838F2382ADC900236078 /* NetworkManager.swift */; };
 		847C83932382B2FD00236078 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C83922382B2FD00236078 /* AppConstant.swift */; };
 		849CC51D2383E3290027A09A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CC51C2383E3290027A09A /* Utilities.swift */; };
+		849CC51F23841AED0027A09A /* DeliveryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CC51E23841AED0027A09A /* DeliveryDetailViewController.swift */; };
 		909842258D8660133532B208 /* Pods_Lalamove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63339C6A6FA4C4B529A564EE /* Pods_Lalamove.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		847C838F2382ADC900236078 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		847C83922382B2FD00236078 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
 		849CC51C2383E3290027A09A /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		849CC51E23841AED0027A09A /* DeliveryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDetailViewController.swift; sourceTree = "<group>"; };
 		89C335C4AFA861B4A04DF710 /* Pods-Lalamove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lalamove.debug.xcconfig"; path = "Target Support Files/Pods-Lalamove/Pods-Lalamove.debug.xcconfig"; sourceTree = "<group>"; };
 		F41BFFA893AC7BC713EB71D1 /* Pods-Lalamove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lalamove.release.xcconfig"; path = "Target Support Files/Pods-Lalamove/Pods-Lalamove.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +93,7 @@
 				842D33E92382738E00CC8AE9 /* Cells */,
 				842D33D723826DD100CC8AE9 /* AppDelegate.swift */,
 				842D33D923826DD100CC8AE9 /* MyDeliveriesViewController.swift */,
+				849CC51E23841AED0027A09A /* DeliveryDetailViewController.swift */,
 				842D33DB23826DD100CC8AE9 /* Main.storyboard */,
 				842D33DE23826DD200CC8AE9 /* Assets.xcassets */,
 				842D33E023826DD200CC8AE9 /* LaunchScreen.storyboard */,
@@ -279,6 +282,7 @@
 				847C838E2382ACB000236078 /* EndPoints.swift in Sources */,
 				842D33F123827ED800CC8AE9 /* DeliveryData.swift in Sources */,
 				842D33DA23826DD100CC8AE9 /* MyDeliveriesViewController.swift in Sources */,
+				849CC51F23841AED0027A09A /* DeliveryDetailViewController.swift in Sources */,
 				849CC51D2383E3290027A09A /* Utilities.swift in Sources */,
 				842D33D823826DD100CC8AE9 /* AppDelegate.swift in Sources */,
 			);
