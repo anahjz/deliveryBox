@@ -33,6 +33,8 @@ class DeliveryDetailViewController: UIViewController, CLLocationManagerDelegate,
     
     private func prepareViews(){
         
+        self.title = "Map"
+        
         guard (delivery != nil) else {
             return
         }
